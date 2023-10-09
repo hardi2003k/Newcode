@@ -1,0 +1,32 @@
+<body>
+<h1 align="center" style="color:darkgreen">School Library Club</h1>
+<hr>
+<form action="registraction.html" method="get">
+  <h3 align="center" style="color:blue">Regestration Form</h3>
+  First Name: <input type="text" name="first_name"><br><br>
+  Last Name: <input type="text" name="last_name"><br><br>
+  Select your Book:
+    <input type="checkbox" value="Science" >Science
+    <input type="checkbox" value="Maths" >Maths
+    <input type="checkbox" value="Computer" >Computer
+    <input type="checkbox" value="S.S.T" >S.S.T
+    <br><br>
+    Your class: 
+      <input type="radio" value="8" >8
+      <input type="radio" value="7" >7
+      <input type="radio" value="6" >6
+      <input type="radio" value="5" >5
+      <input type="radio" value="4" >4
+      <input type="radio" value="3" >3
+      <input type="radio" value="2" >2
+      <input type="radio" value="1" >1
+    <br><br>
+      <select name="language" size=2 multiple>
+        <option value="english">English</option>
+        <option value="hindi">Hindi</option>
+      </select>
+      <br>
+      <input type="submit" value="Submit" style="background-color:lightgreen;border:2px solid green">
+      <input type="reset" value="Reset" style="background-color:orange;border:2px solid maroon"><br>
+        </form>
+        </body>
